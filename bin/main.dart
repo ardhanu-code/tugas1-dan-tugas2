@@ -1,5 +1,6 @@
 import 'package:belajar_dart/function.dart';
 import 'package:belajar_dart/greetings.dart';
+import 'package:belajar_dart/looping.dart';
 import 'package:belajar_dart/tugas2.dart';
 
 void main(List<String> arguments) {
@@ -29,4 +30,19 @@ void main(List<String> arguments) {
   tampilkanBiodata();
   //Tugas 2
   tugas2();
+
+  //for-loop
+  print('===================For Loop===================');
+  perulanganFor();
+
+  //while-loop
+  print('===================While Loop===================');
+  perulanganWhile();
+
+  //dowhileloop
+  print('===================Do While Loop===================');
+  perulanganDoWhile();
+
+  print('===================For Each Loop===================');
+  perulanganForEach();
 }
