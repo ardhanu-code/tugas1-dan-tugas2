@@ -2,6 +2,7 @@ import 'package:belajar_dart/function.dart';
 import 'package:belajar_dart/greetings.dart';
 import 'package:belajar_dart/looping.dart';
 import 'package:belajar_dart/tugas2.dart';
+import 'package:belajar_dart/tugas3.dart';
 
 void main(List<String> arguments) {
   print("\n=======Fungsi Greetings=======");
@@ -32,7 +33,7 @@ void main(List<String> arguments) {
   tugas2();
 
   //for-loop
-  print('===================For Loop===================');
+  print('\n===================For Loop===================');
   perulanganFor();
 
   //while-loop
@@ -45,4 +46,15 @@ void main(List<String> arguments) {
 
   print('===================For Each Loop===================');
   perulanganForEach();
+
+  print('===================For In Loop===================');
+  perulanganForIn();
+
+  print('===================TUGAS 3===================');
+  tugas3_1();
+  tugas3_2();
+  tugas3_3();
+  tugas3_4();
+  tugas3_5();
+  print('===================AKHIR DARI TUGAS 3===================');
 }

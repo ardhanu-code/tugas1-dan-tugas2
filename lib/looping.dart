@@ -24,6 +24,27 @@ void perulanganDoWhile() {
 }
 
 void perulanganForEach() {
-  List<String> listBuku = ["Buku 1", "Buku 2", "Buku 3", "Buku 4", "Buku 5"];
-  listBuku.forEach(print);
+  List<String> listBuku = [
+    "Buku Taktik Menguasai Wanita",
+    "Buku Jangan Melawan Orang Tua",
+    "Buku Lupa Nama Bukunya Apa",
+    "Buku Kayanya Inget Deh",
+    "Buku Ohh Iya Buku Itu",
+  ];
+  listBuku.forEach((n) {
+    print('Nama-nama buku enjoy: $n');
+  });
+}
+
+void perulanganForIn() {
+  List<String> listMakan = [
+    "Bakso",
+    "Ketoprak",
+    "Sop Iga Enak",
+    "Sop Buntut juga enak",
+    "Sate ayam",
+  ];
+  for (var a in listMakan) {
+    print('Nama-nama makanan enak: $a');
+  }
 }
