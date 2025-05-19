@@ -1,6 +1,8 @@
+import 'dart:io';
+
 void tugas3_1() {
   print('Nomor 1:');
-  for (int i = 1; i <= 5; i++) {
+  for (int i = 1; i <= 20; i++) {
     if (i % 2 != 0) {
       print(i);
     }
@@ -8,12 +10,12 @@ void tugas3_1() {
 }
 
 void tugas3_2() {
-  print('\nNomor 2:');
+  print('Nomor 2:');
   int a = 1;
   do {
-    print('*');
+    stdout.write('*');
     a++;
-  } while (a < 5);
+  } while (a <= 5);
 }
 
 void tugas3_3() {
